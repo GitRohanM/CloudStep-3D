@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2607622471633259926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1879896573520304424}
+  - component: {fileID: 1343563269679566355}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1879896573520304424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2607622471633259926}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1343563269679566355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2607622471633259926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63ace39dedcb364ab5290a2b39063ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  masterMixer: {fileID: 24100000, guid: 3cd72d9c43ea5b0438b6f4cdc058b4f5, type: 2}
+  masterGroup: {fileID: 24300002, guid: 3cd72d9c43ea5b0438b6f4cdc058b4f5, type: 2}
+  bgmGroup: {fileID: 6433940893646891686, guid: 3cd72d9c43ea5b0438b6f4cdc058b4f5, type: 2}
+  ambienceGroup: {fileID: -6541790829895216030, guid: 3cd72d9c43ea5b0438b6f4cdc058b4f5, type: 2}
+  sfxGroup: {fileID: -6323265727020057407, guid: 3cd72d9c43ea5b0438b6f4cdc058b4f5, type: 2}
+  uiGroup: {fileID: -1678146958384443624, guid: 3cd72d9c43ea5b0438b6f4cdc058b4f5, type: 2}
+  masterParam: MasterVolume
+  bgmParam: BGMVolume
+  ambienceParam: AmbienceVolume
+  sfxParam: SFXVolume
+  uiParam: UIVolume
+  soundDatabase:
+  - {fileID: 11400000, guid: 8bb8592031049ac43ae63181ddce7349, type: 2}
+  - {fileID: 11400000, guid: 81478e0c3ce8ccd4e85967f3789a9e69, type: 2}
+  - {fileID: 11400000, guid: 29f1998515cc8364dbb800754237d3b0, type: 2}
+  - {fileID: 11400000, guid: a31df471fd232324cb5823c1e6d991aa, type: 2}
+  - {fileID: 11400000, guid: 371bed8ba17343945aa3e041283b8a61, type: 2}
+  - {fileID: 11400000, guid: 6c5589e3e71ba9e46b0fcd2f24a81214, type: 2}
+  - {fileID: 11400000, guid: 4cdb6a2db96351148b683a1ec94dfe4d, type: 2}
+  - {fileID: 11400000, guid: 4038d30327e6fe945b7d2492384e7dd4, type: 2}
+  - {fileID: 11400000, guid: 16284b0318abae547b325a6b444b2a1a, type: 2}
+  - {fileID: 11400000, guid: d91b6b50a41fcd044a20ed695f2f22b3, type: 2}
+  - {fileID: 11400000, guid: 1a198c19a3c941246ba265a2082ba07c, type: 2}
+  - {fileID: 11400000, guid: e542a2e9638aabf469b8d09b72ac98b2, type: 2}
+  - {fileID: 11400000, guid: 2d648b564d6578046b0487de52bc387e, type: 2}
+  - {fileID: 11400000, guid: 8e4a3cd2c709c4b48890aa0ad80f89df, type: 2}
+  - {fileID: 11400000, guid: 0350245368c73384eb248573bdfba482, type: 2}
+  - {fileID: 11400000, guid: dc6f40b9fdb19a1498471edbf9363f5e, type: 2}
+  - {fileID: 11400000, guid: 21036b8d8f06e4241ab86f46e41bcdbb, type: 2}
+  - {fileID: 11400000, guid: cb90510fdab0e0e499ecbbddf48fbcd3, type: 2}
+  - {fileID: 11400000, guid: c23860c6aee85814bbf4be4dcb799878, type: 2}
+  - {fileID: 11400000, guid: b371feb9e9ab0a74ea2bb5b68ba90119, type: 2}
+  initialPoolSize: 20

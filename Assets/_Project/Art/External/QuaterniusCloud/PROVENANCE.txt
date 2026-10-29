@@ -1,0 +1,5 @@
+Source: Quaternius, Cloud model (Poly Pizza model F6DzCxDz6I)
+Model page: https://poly.pizza/m/F6DzCxDz6I
+License: Public Domain (CC0), as shown on the model page. CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
+Imported: Cloud4.fbx.
+Archive SHA-256: 9A6B219C3FA5CD0A8B61FC4A17F6EB6F9735964AC9AE6B2C4241F2990BAF5BBC

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1eb989c7494284fad2a00405ac79e3, type: 3}
+  m_Name: UI_Click
+  m_EditorClassIdentifier: Assembly-CSharp::SoundDataSO
+  SoundID: UI_Click
+  Clips:
+  - {fileID: 8300000, guid: 5111cb7297c0d2a4c92d445fe9bec15a, type: 3}
+  - {fileID: 8300000, guid: 3d727f74ff716a848a950cac33bb28e5, type: 3}
+  MixerGroup: {fileID: -1678146958384443624, guid: 3cd72d9c43ea5b0438b6f4cdc058b4f5, type: 2}
+  Volume: 0.65
+  PitchVariation: {x: 0.98, y: 1.02}
+  SpatialBlend: 0
+  MinMaxDistance: {x: 1, y: 35}
+  Loop: 0
+  CooldownTime: 0.04

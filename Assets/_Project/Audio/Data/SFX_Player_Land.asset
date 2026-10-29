@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1eb989c7494284fad2a00405ac79e3, type: 3}
+  m_Name: SFX_Player_Land
+  m_EditorClassIdentifier: Assembly-CSharp::SoundDataSO
+  SoundID: SFX_Player_Land
+  Clips:
+  - {fileID: 8300000, guid: a92ff6e0ab959944ab1e9fc384052578, type: 3}
+  - {fileID: 8300000, guid: c97c7fd0c342a794893a409ffe8afb23, type: 3}
+  - {fileID: 8300000, guid: dcbd86438d82d2548a06fe4fe1a2f1ad, type: 3}
+  MixerGroup: {fileID: -6323265727020057407, guid: 3cd72d9c43ea5b0438b6f4cdc058b4f5, type: 2}
+  Volume: 0.6
+  PitchVariation: {x: 0.94, y: 1.06}
+  SpatialBlend: 1
+  MinMaxDistance: {x: 1, y: 35}
+  Loop: 0
+  CooldownTime: 0.06

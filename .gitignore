@@ -1,0 +1,58 @@
+# =========================================================================
+# Unity .gitignore for GitHub Repository
+# Tailored for Unity 6 (6000.6+) / URP / C# / Visual Studio & Rider
+# =========================================================================
+
+# Unity generated and cache directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# External raw archives (>100MB exceeds GitHub push limits)
+ExternalAssets/
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Visual Studio / JetBrains Rider / VS Code temporary files
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Unity Asset Store cache
+[Aa]ssets/AssetStoreTools*
+
+# OS-generated metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Tooling, workspace agent caches & local configs
+.opencode/
+opencode.json
+.codex/

@@ -1,0 +1,6 @@
+Source: Quaternius, Stylized Nature MegaKit (Standard)
+Official project page: https://quaternius.itch.io/stylized-nature-megakit
+License: Creative Commons Zero v1.0 Universal (CC0), per official itch.io page and included License_Standard.txt.
+Imported: Unity FBX models and texture PNGs only; OBJ/glTF duplicates omitted.
+Archive SHA-256: 298F6732B872E4CF7B30E6E7ABF9641C7F6DC6B326DF37AC089533ED7E3D58C9
+License SHA-256: 120710E542C3EBAF83856C4EB55B4A1E680593B39302EBA7FDC5D942DFE78C58

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1eb989c7494284fad2a00405ac79e3, type: 3}
+  m_Name: SFX_Player_Footstep
+  m_EditorClassIdentifier: Assembly-CSharp::SoundDataSO
+  SoundID: SFX_Player_Footstep
+  Clips:
+  - {fileID: 8300000, guid: 9bacd5b13a43543408fc6f3641a14f8b, type: 3}
+  - {fileID: 8300000, guid: b5d30650a98d4ba468a29a0d258b7988, type: 3}
+  - {fileID: 8300000, guid: abc979557b8b33849ae538151f791d65, type: 3}
+  - {fileID: 8300000, guid: 527232cc5150fc34ca48467ab5dd0572, type: 3}
+  MixerGroup: {fileID: -6323265727020057407, guid: 3cd72d9c43ea5b0438b6f4cdc058b4f5, type: 2}
+  Volume: 0.45
+  PitchVariation: {x: 0.92, y: 1.08}
+  SpatialBlend: 1
+  MinMaxDistance: {x: 1, y: 25}
+  Loop: 0
+  CooldownTime: 0.08

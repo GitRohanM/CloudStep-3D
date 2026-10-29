@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1eb989c7494284fad2a00405ac79e3, type: 3}
+  m_Name: SFX_Coin
+  m_EditorClassIdentifier: Assembly-CSharp::SoundDataSO
+  SoundID: SFX_Coin
+  Clips:
+  - {fileID: 8300000, guid: 5af43655509b78b4f95386aaaf034a9a, type: 3}
+  - {fileID: 8300000, guid: c6b1f5bd10d28e6408722ce1c4063ede, type: 3}
+  - {fileID: 8300000, guid: 4de1b2a11764f944495918d21c3e79f6, type: 3}
+  MixerGroup: {fileID: -6323265727020057407, guid: 3cd72d9c43ea5b0438b6f4cdc058b4f5, type: 2}
+  Volume: 0.7
+  PitchVariation: {x: 0.96, y: 1.08}
+  SpatialBlend: 0
+  MinMaxDistance: {x: 1, y: 35}
+  Loop: 0
+  CooldownTime: 0.02
