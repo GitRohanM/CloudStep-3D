@@ -118,7 +118,7 @@ Assets/_Project/
 ### Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   git clone https://github.com/GitRohanM/CloudStep-3D.git
    cd <repo-name>
    ```
 
